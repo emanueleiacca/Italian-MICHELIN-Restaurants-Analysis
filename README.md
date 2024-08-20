@@ -33,17 +33,24 @@ We created two new variables to summarize the effect of the two index previously
 
 ## Modeling Approaches
 Several models were implemented and compared:
+
 **OLS Regression**: The baseline model used for prediction.
+
 **Ridge Regression with Spline Transformation**: To capture non-linearities.
+
 **Polynomial Features**: To capture non-linear relationships between features.
+
 **Simple Decision Tree**: Trying a tree based method to see how it performs.
+
 **Random Forest**: Improving performance of tree base method using RF.
 
 ## Results
 
 **Empirical Results**: R-squared is the metric used to evaluate the performance of each model
+
 **Visual Results**: Visualizing the predicted y versus the actual y provided a clear view of how well the regression line corresponds with our data.
+
 **Explanable AI**: SHAP was used to interpret the OLS model, understand feature importance and more importantly how much and how each variable influence the final result.
 
 ## License
-I'd like to thanks my friend Simone Staiano to manually scrape data all over the web to provide me this Dataset, all the credits goes to him
+I'd like to thanks my friend Simone Staiano to manually scrape data all over the web to provide me this Dataset, all the credits goes to him.
